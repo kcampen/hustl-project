@@ -1,10 +1,8 @@
-$(function(){
-Parse.initialize("bCi5dBHvGtOYnVzhkhS8f0GFjeEKElpFEt2IIVeO", "0JO22w3zsha7daj0NCQ3hNsIAbAsO03eH1RKhxa8");
-var Backer = Parse.Object.extend("Backer");
+var User = Parse.Object.extend("User");
 
-var BackersCollection = Parse.Collection.extend({
-	model: Backer
+
+var UsersCollection = Parse.Collection.extend({
+	model: User
 });
 
-window.backers = new BackersCollection();
-backers.fetch();
+window.users = new UsersCollection();
