@@ -8,11 +8,12 @@ var SignUpView = Backbone.View.extend({
 			this.render();
 		},
 
-		render: function(){
+	render: function(){
 
-			var renderTemplate = this.createTemplate(this.model);
-			this.$el.html(renderedTemplate)
+			var renderTemplate = this.createTemplate(this.model.attributes);
+			console.log(this.model);
+			this.$el.html(renderedTemplate);
 		}
 
 
-})
+});

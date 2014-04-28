@@ -1,4 +1,4 @@
-var User = Parse.Object.extend("User");
+var User = Parse.Object.extend('User');
 
 
 var UsersCollection = Parse.Collection.extend({

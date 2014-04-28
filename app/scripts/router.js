@@ -1,23 +1,21 @@
 var MainRouter = Backbone.Router.extend({
 
 	routes: {
-		"": "home",
-		"singup": "signUp"
+		'': 'home',
+		'singup': 'signup'
 	},
 
 	initialize: function(){
-		console.log("hello");
+		console.log('hello');
 	},
 
 	home: function(){
 
 	},
 
-	signUp: function(){
-
-		$('.jumbotron').html('');
+	signup: function(){
 		new SignUpView();
 
 	}
 
-})
+});
