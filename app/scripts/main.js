@@ -4,6 +4,10 @@ $(function(){
 
 
 		console.log('welcome to the space jam');
+		
+		window.router = new MainRouter();
+
+		window.users = new UsersCollection();
 
 		Backbone.history.start();
 

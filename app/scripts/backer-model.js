@@ -5,4 +5,4 @@ var UsersCollection = Parse.Collection.extend({
 	model: User
 });
 
-window.users = new UsersCollection();
+// window.users = new UsersCollection();
