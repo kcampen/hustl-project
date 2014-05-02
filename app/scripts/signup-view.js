@@ -1,4 +1,4 @@
-var SignUpView = Backbone.View.extend({
+var SignUpView = Parse.View.extend({
 
 	createTemplate: _.template($('#sign-up-template').text()),
 
@@ -8,7 +8,7 @@ var SignUpView = Backbone.View.extend({
 
 	initialize: function(){
 		console.log('SignUpView init')
-	  $('.jumbotron').html(this.el);
+	  $('.jumbotron').append(this.el);
 
 			this.render();
 		},

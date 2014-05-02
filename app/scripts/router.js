@@ -10,10 +10,14 @@ var MainRouter = Backbone.Router.extend({
 	},
 
 	home: function(){
+		console.log('homeview');
+		new HomeView();
 
 	},
 
 	signup: function(){
+		console.log("what view?")
+		new HomeView();
 		new SignUpView();
 
 	}
