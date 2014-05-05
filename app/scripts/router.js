@@ -2,7 +2,7 @@ var MainRouter = Backbone.Router.extend({
 
 	routes: {
 		'': 'home',
-		'singup': 'signupPage'
+		'signup': 'signupPage'
 	},
 
 	initialize: function(){
@@ -18,9 +18,9 @@ var MainRouter = Backbone.Router.extend({
 	},
 
 	signupPage: function(){
-		console.log('hello?')
 		$('body').empty();
 		new HomeView();
+		new BannerView();
 		new SignUpView();
 		new FooterView();
 
