@@ -19,12 +19,12 @@ $('.js-log-in').click(function(){
 				$('.js-email').val();
 				$('.js-password').val();
 				$('.modal').modal('hide');
-						alert('boom');       
-						},
-      	error: function(user, error){
-      	console.log(error)
-				alert('error');
+						alert('boom');
+					},
+					error: function(user, error){
+						console.log(error);
+						alert('error');
         
       }
-      	});
+    });
 });

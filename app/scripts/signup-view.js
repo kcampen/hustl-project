@@ -4,8 +4,8 @@ var SignUpView = Parse.View.extend({
 
 	initialize: function(){
 		$('.jumbotron').empty();
-  	$('.jumbotron').append(this.el);
-  	this.render();
+		$('.jumbotron').append(this.el);
+		this.render();
 	},
 
 	render: function(){

@@ -3,7 +3,7 @@ var FooterView = Parse.View.extend({
 	footerTemplate: _.template($('#footer-template').text()),
 
 	initialize: function(){
-		$('body').append(this.el)
+		$('body').append(this.el);
 		this.render();
 	},
 
