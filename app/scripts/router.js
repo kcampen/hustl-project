@@ -13,6 +13,7 @@ var MainRouter = Backbone.Router.extend({
 		console.log('homeview');
 		new HomeView();
 		new BannerView();
+		new BrowseView();
 		new FooterView();
 
 	},
