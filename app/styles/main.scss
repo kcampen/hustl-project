@@ -75,6 +75,66 @@ body {
     }
 }
 
+.featured-hustl {
+    background-color: lime;
+    padding-bottom: 50px;
+    margin-bottom: 10px;
+}
+
+.campaign-container{
+    min-height: 1px;
+    // padding-left: 10px;
+    // padding-right: 10px;
+    margin: 15px 5px;
+    background-color: #fff;
+    display: inline-block;
+    margin-bottom: 30px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.image-container {
+    height: 170px;
+    position: relative;
+}
+
+.campaign-image {
+    border-radius: 3px 3px 0 0;
+    height: 170px;
+    width: 226px;
+}
+
+a {
+    text-decoration: none;
+    background: transparent;
+}
+
+.tab-content {
+    border-bottom: 1px solid #eceff5;
+    width: 226px;
+    padding: 10px;
+    color: black;
+}
+
+.progress-section{
+    margin-top: 10px;
+    border-bottom: 0;
+}
+
+.money-raised {
+    float: left;
+    line-height: 18px;
+    margin: 0;
+}
+
+.money-goal {
+    float: right;
+    text-align: right;
+}
+
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
     .container {
