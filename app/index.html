@@ -35,6 +35,7 @@
 					<li><a class="btn-lg btn-success btn-register" href="">Home</a></li>
 					<li><a class="btn-lg btn-success" href="#" data-toggle="modal" data-target="#myModal">Sign In</a></li>
 					<li><a class="btn-lg btn-success btn-register" href="#signup">Register</a></li>
+					<li><a class="btn-lg btn-success btn-register" href="#signup/form">Hustl</a></li>
 				</ul>
 				<!-- Log-in Modal -->
 				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
@@ -99,14 +100,14 @@
 						<a href="">
 							<div class="campaign-container">
 								<div class="image-container">
-									<img class="campaign-image" src="images/marina.png">
+									<img class="campaign-image avatar" src="<%= avatar %>" style="width: 400px">
 								</div>
 								<div class="tab-content">
-									<p class="name">Marina</p>
-									<p class="location">Knoxville, TN</p>
+									<p class="name"><%= name %></p>
+									<p class="location"><%= location %></p>
 								</div>
 								<div class="tab-content">
-									<p class="description">Knoxvilles eclectic eight piece party band Marina Orchestra is recording a new album and they need your help!</p>
+									<p class="description"><%= bio %></p>
 								</div>
 								<div class="tab-content progress-section">
 									<div class="progress">
@@ -126,6 +127,40 @@
 							</div>
 						</a>
 					</div>
+				</div>
+			</div>
+		</script>
+
+		<script type="text/template" id="form-template">
+			<div class="container">
+				<div class="register-form col-lg-12">
+					<form class="form-horizontal" role="form">
+								  <div class="form-group">
+										<label class="col-sm-2 control-label">name</label>
+										<div class="col-sm-10">
+									  	<input type="text" class="form-control name" placeholder="your name">
+								   	</div>
+								  </div>
+									<div class="form-group">
+										<label class="col-sm-2 control-label">location</label>
+										<div class="col-sm-10">
+									  	<input type="text" class="form-control location" placeholder="your location">
+								   	</div>
+								  </div>
+								  <div class="form-group">
+										<label class="col-sm-2 control-label">bio</label>
+										<div class="col-sm-10">
+									  	<input type="text" class="form-control bio" placeholder="bio">
+								   	</div>
+								 </div>
+								 <div class="form-group">
+								 	<label class="col-sm-2 control-label">image</label>
+								 	<div class="col-sm-10">
+								 		<input type="text" class="form-control avatar" placeholder="add image url here">
+								 	</div>
+								 </div>
+							<a class="btn-lg btn-success btn-register save-js-btn" href="signup/new">Save</a>
+					</form>
 				</div>
 			</div>
 		</script>
@@ -213,6 +248,7 @@
 		<script src="scripts/signup-view.js"></script>
 		<script src="scripts/footer-view.js"></script>
 		<script src="scripts/browse-view.js"></script>
+		<script src="scripts/form-view.js"></script>
 		<script src="scripts/banner-view.js"></script>
 		<script src="scripts/home-view.js"></script>
 		<script src="scripts/main.js"></script>
