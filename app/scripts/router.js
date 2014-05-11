@@ -38,7 +38,7 @@ var MainRouter = Backbone.Router.extend({
 	},
 
 	formDone: function(){
-		console.log('umm?');
+		console.log('working?');
 		new HomeView();
 		new BannerView();
 		new BrowseView();
