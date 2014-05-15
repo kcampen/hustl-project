@@ -89,47 +89,6 @@
 			</div>
 		</script>
 
-		<script type="text/template" id="browse-template">
-			<div class="container-fluid">
-				<div class="featured-hustl col-lg-12">
-					<div class="feature-title">
-						<h1>Featured Hustl</h1>
-						<span>Find a hustl you can get behind</span>
-					</div>
-					<div class="hustl-browse col-lg-4">
-						<a href="">
-							<div class="campaign-container">
-								<div class="image-container">
-									<img class="campaign-image avatar" src="<%= avatar %>" style="width: 400px">
-								</div>
-								<div class="tab-content">
-									<p class="name"><%= name %></p>
-									<p class="location"><%= location %></p>
-								</div>
-								<div class="tab-content">
-									<p class="description"><%= bio %></p>
-								</div>
-								<div class="tab-content progress-section">
-									<div class="progress">
-									  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-									    <span class="sr-only">40% Complete (success)</span>
-									  </div>
-									 </div>
-									  <div class="money-raised">
-									  	<p class="raised-amount">$40</p>
-									  	<p>backed</p>
-									  </div>
-									  <div class="money-goal">
-									  	<p class="goal-amount">$100</p>
-									  	<p>goal</p>
-									  </div>
-								</div>
-							</div>
-						</a>
-					</div>
-				</div>
-			</div>
-		</script>
 
 		<script type="text/template" id="form-template">
 			<div class="container">
@@ -159,7 +118,7 @@
 								 		<input type="text" class="form-control avatar" placeholder="add image url here">
 								 	</div>
 								 </div>
-							<a class="btn-lg btn-success btn-register save-js-btn" href="signup/new">Save</a>
+							<a class="btn-lg btn-success btn-register save-js-btn" href="#signup/new">Save</a>
 					</form>
 				</div>
 			</div>
@@ -201,6 +160,47 @@
 			</div>
 		</script>
 
+		<script type="text/template" id="browse-template">
+			<div class="container-fluid">
+				<div class="featured-hustl col-lg-12">
+					<div class="feature-title">
+						<h1>Featured Hustl</h1>
+						<span>Find a hustl you can get behind</span>
+					</div>
+					<div class="hustl-browse col-lg-4">
+						<a href="">
+							<div class="campaign-container">
+								<div class="image-container">
+									<img class="campaign-image avatar" src="<%= avatar %>" style="width: 400px">
+								</div>
+								<div class="tab-content">
+									<p class="name"><%= name %></p>
+									<p class="location"><%= location %></p>
+								</div>
+								<div class="tab-content">
+									<p class="description"><%= bio %></p>
+								</div>
+								<div class="tab-content progress-section">
+									<div class="progress">
+									  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+									    <span class="sr-only">40% Complete (success)</span>
+									  </div>
+									 </div>
+									  <div class="money-raised">
+									  	<p class="raised-amount">$40</p>
+									  	<p>backed</p>
+									  </div>
+									  <div class="money-goal">
+									  	<p class="goal-amount">$100</p>
+									  	<p>goal</p>
+									  </div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</script>
 
 		<!-- build:js scripts/vendor.js -->
 		<!-- bower:js -->

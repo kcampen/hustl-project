@@ -1,5 +1,7 @@
 var BrowseView = Parse.View.extend({
 
+	className: "thumbnail",
+
 	browseTemplate: _.template($('#browse-template').text()),
 
 	initialize: function(){

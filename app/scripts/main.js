@@ -25,23 +25,23 @@ $(function(){
 
 });
 
-$('.save-js-btn').on('click', function(){
+// $('.save-js-btn').on('click', function(){
 
 
-var userProfile = new User()
-	if($('.name').val()) {userProfile.set({name: $('.name').val()})}; 
-	if($('.bio').val()) {userProfile.set({bio: $('.bio').val()})};
-	if($('.location').val()) {userProfile.set({phone: $('.location').val()})};  
-	if($('.avatar').val()) {userProfile.set({avatar: $('.avatar').val()})}; 
+// var userProfile = new User()
+// 	if($('.name').val()) {userProfile.set({name: $('.name').val()})}; 
+// 	if($('.bio').val()) {userProfile.set({bio: $('.bio').val()})};
+// 	if($('.location').val()) {userProfile.set({phone: $('.location').val()})};  
+// 	if($('.avatar').val()) {userProfile.set({avatar: $('.avatar').val()})}; 
 
 
-var newInfo = users.add(userProfile);
+// var newInfo = users.add(userProfile);
 
-new BrowseView({model: userProfile});
+// new BrowseView({model: userProfile});
 
-userProfile.save();
+// userProfile.save();
 
-})
+// })
 
 
 
